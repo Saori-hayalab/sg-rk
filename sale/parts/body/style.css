@@ -118,14 +118,16 @@ ul {
   font-size: 12px;
 }
 
-.product-title, h6.product-title {
+.product-title > h6, .product-title > h4 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-
-h6.product-title {
+.product-title > h6 {
   text-align: left;
+}
+
+section> div:last-child {
+  margin-bottom: 60px;
 }
 
 h6 {
@@ -270,7 +272,7 @@ section {
 }
 
 .section-header > h4 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .row.feature, .footnotes, .top-copy, .after-feature {
@@ -292,7 +294,7 @@ h5 {
 }
 
 .contents {
-  padding: 30px 0px
+  padding: 18px 0px
 }
 
 
@@ -399,4 +401,111 @@ h5 {
   width: 33%;
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.star {
+  max-width: 100px;
+}
+
+.gallery-container {
+  text-align: center;
+}
+
+#expanded-img, .mySlides.fade {
+  max-width: 500px;
+}
+
+.mySlides.fade {
+  margin: 0 auto;
+}
+
+.za-photos {
+  margin-top: 40px;
+  margin-bottom: 20px; 
+}
+
+@media screen and (min-width:600px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2, .shops-and-media > div > h4, .about > div  > h4 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 23px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  .contents > ul > li {
+    font-size: 18px;
+  }
+  .section-header > h4::after, .packaging-header > h4, .section-header > h4 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .only-pc {
+    display: unset;
+  }
+  .only-sp {
+    display: none;
+  }
+  .company-vision-bg, .nav-link {
+    font-size: 18px;
+  }
+  .product-info > div {
+    margin-top: 20px;
+  }
+  .features > div {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .shops-and-media, .about {
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+  }
+  .shops-captions{
+    margin-bottom: 150px;
+    font-size: 15px;
+    margin-top: 0px;  
+  }
+  .product-page, .after-feature > div > div > a {
+    font-size: 20px;
+  }
+  section.shops-and-media > div > h2, .about > div > h2 {
+    margin-bottom: 70px;
+  }
+  .link-to.after-feature {
+    padding-top: 50px;  
+  }
+  .container.features > div > div {
+    padding-bottom: 32px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:960px) {
+.container {
+  max-width: 700px;
+}
+.row.feature, .footnotes, .top-copy, .after-feature {
+  padding: 35px;
+}
+
+}
+
+@media screen and (min-width:1280px) {
+/*  .sun-text {
+    top: 150px;
+  }
+  .night-text {
+    top: 200px;
+  }
+  .only-sp {
+    display: none;
+  }
+  .only-pc {
+    display: unset;
+  }*/
 }

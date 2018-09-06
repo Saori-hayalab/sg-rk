@@ -401,6 +401,18 @@ h5 {
   max-width: 100px;
 }
 
+.gallery-container {
+  text-align: center;
+}
+
+#expanded-img, .mySlides.fade {
+  max-width: 500px;
+}
+
+.mySlides.fade {
+  margin: 0 auto;
+}
+
 @media screen and (min-width:600px) {
   h1 {
     font-size: 36px;
@@ -409,7 +421,7 @@ h5 {
     font-size: 25px;
   }
   h4 {
-    font-size: 24px;
+    font-size: 23px;
   }
   h6 {
     font-size: 18px;
@@ -463,44 +475,13 @@ h5 {
 }
 
 @media screen and (min-width:960px) {
-/*  h1 {
-    font-size: 40px;
-  }
-  h2, .shops-and-media > div > h4, .about > div  > h4 {
-    font-size: 30px;
-  }
-  h4 {
-    font-size: 23px;
-  }
-  h6 {
-    font-size: 18px;
-  }
-  .hero-text {
-    font-size: 22px;
-    margin-top: 38px;
-  }
-  .sun-text, .night-text {
-    font-size: 38px;
-  }
-  .product-page, .after-feature > div > div > a {
-    font-size: 20px;
-  }
-  .only-sp {
-    display: none;
-  }
-  .only-pc {
-    display: unset;
-  }
-  .product-info {
-    margin-top: 70px;
-  }
-  .container {
-    max-width: 900px;
-  }
-  .sun-text {
-    top: 80px;
-    font-size: 35px;
-  }*/
+.container {
+  max-width: 700px;
+}
+.row.feature, .footnotes, .top-copy, .after-feature {
+  padding: 35px;
+}
+
 }
 
 @media screen and (min-width:1280px) {

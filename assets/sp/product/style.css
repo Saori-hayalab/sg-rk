@@ -1,0 +1,417 @@
+
+body {
+  height: 1100px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-left: 8px;
+  margin-right: 8px;
+  line-height: 2;
+}
+
+ul, .nav.menu {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#nav-top, a, .to-cart {
+ text-align: center
+}
+
+.nav-inside, .page-title, .global-fotter-directory > h4, .global-fotter-directory-collapse, footer {
+  color: #FFFFFF;
+}
+
+.bottom-nav-text {
+  font-size: 10px;
+}
+
+a, .social-icons > a > i:hover {
+  color: #F89A1C
+}
+
+a:hover, .social-icons > a {
+  color: #7095CD
+}
+
+
+img {
+  width: 100%;
+}
+
+.hero-iamge {
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 140px;
+  left: 24px;
+  color: white;
+}
+
+#top-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.page-title, #nav-top, .feature-para, body, .global-fotter-directory-column {
+  background-color: #444444;
+}
+
+.page-title, .product-intro-title {
+  text-align: center;
+  padding: 20px 20px 0px 20px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 17px;
+  line-height: 2;
+}
+
+.to-prod-page, .to-prod-page > a {
+  text-align: center;
+  color: #FED8B1;
+}
+
+.to-prod-page > a:hover {
+  color: #F89A1C;  
+}
+
+.feature-para {
+  margin-bottom: 70px;
+  color: #FFFFFF;
+}
+
+ul {
+  margin: 15px auto;
+}
+
+.item-feature {
+  padding-bottom: 14px;
+  font-size: 12px;
+}
+
+.product-title, h6.product-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+h6.product-title {
+  text-align: left;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.global-fotter-directory > h4::after, .section-header >h4::after {
+  float: right;
+  content: "+";
+  margin-right: 14px;
+}
+
+.global-fotter-directory-column {
+  padding: 0 16px;
+}
+
+.global-fotter-directory-collapse {
+  font-size: 14px;
+}
+.global-fotter-directory {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.company-vision-column, .product-intro-title {
+  background-color: #FFFFFF;
+  margin: 0px;
+}
+
+.global-fotter-directory > h4 {
+  line-height: 3;
+}
+
+.company-vision-column, .container {
+  padding: 30px;
+  background-color: #FFFFFF;
+}
+.company-vision {
+  padding: 20px 10px 40px 10px;
+}
+
+.company-vision-bg > h6 {
+  line-height: 2;
+}
+
+.company-vision-column {
+  padding-bottom: 60px;
+}
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  background-color: #444444;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.social-icons {
+  text-align: right;
+  margin-right: 15px;
+}
+
+.social-icons > a > i {
+  margin: 10px;
+}
+
+footer > img {  
+  height: 100px;
+  width: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 72px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery-container {
+  position: relative;
+  display: none;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.row-photo-gallery {
+  overflow: auto;
+  white-space: nowrap;
+  height: 90px;
+  overflow-x: scroll;
+}
+
+.feature-img, .fa-tint {
+  max-height: 60px;
+  width: auto;
+}
+
+section {
+  border-bottom: solid;
+  border-color: #ecf1f8;
+}
+.global-fotter-directory-column {
+  border: none; 
+}
+
+.section-header, .packaging-header, .go-to-cart > h4 {
+  text-align: center;
+  padding: 30px;
+}
+
+.section-header > h4, .packaging-header > h4, .go-to-cart > h4, .after-feature > div > a > span {
+  font-weight: bold;
+}
+
+.section-header > h4, .packaging-header > h4, .go-to-cart > h4, .product-intro-title, .to-cart > button > a {
+  color: #444444;
+}
+
+.section-header > h4::after, .packaging-header > h4 {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.section-header > h4 {
+  font-size: 16px;
+}
+
+.row.feature, .footnotes, .top-copy, .after-feature {
+  padding: 50px;
+}
+
+
+h5 {
+  font-size: 16px;
+}
+
+.footnotes {
+  text-align: left;
+  color: #a6a6a6;
+}
+
+.top-copy {
+  line-height: 2;
+}
+
+.collapse.contents {
+  padding: 30px 0px
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.utilize-scene-caption {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.fade:not(.show) {
+  opacity: 1;
+}
+
+.to-cart > button {
+  margin: 50px;
+  background-color: #F89A1C;
+}
+
+.nav-link {
+  padding: 3px 14px 3px 14px;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+.nav-item {
+  width: 33%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/*
+ORANGE
+#F89A1C
+
+LIGHT APRICOT
+#FED8B1
+
+BLUE GRAY
+#7095CD
+
+GRAY
+#444444
+*/

@@ -1,0 +1,74 @@
+#itemImageSlider {
+  margin-top: 148px;
+}
+
+.header-sp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#headerWrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: calc(40 / 1024 * 100%); /* 3.【パーツの高さ数値】にiframeもしくは画像の横幅が1024px時の高さを入力（※pxなど単位はつけないこと） */
+}
+
+  #absoluteBox {
+  position: absolute; 
+  top: 148px;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.itemtitle, #campaignText, #itemFestival {
+  display: none; 
+}
+
+#nav-top {
+  background-color: #444444;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+//////
+#top-logo {
+  width: 16px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+
+@media screen and (min-width:480px) and ( max-width:600px) { 
+
+}
+
+
+@media screen and (min-width:600px) and ( max-width:960px) {
+
+}
+
+@media screen and (min-width:960px) and ( max-width:1280px) {
+  #top-logo {
+    width: 25px;
+  }
+
+}
+
+@media screen and (min-width:1280px) {
+
+}

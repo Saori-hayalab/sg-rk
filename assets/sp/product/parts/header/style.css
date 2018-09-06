@@ -1,0 +1,23 @@
+#nav-top {
+  background-color: #444444;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+img#top-logo {
+  height: 24px;
+  width: 36px;
+  vertical-align: middle;
+  border-style: none;
+}

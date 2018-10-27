@@ -134,12 +134,15 @@ ul {
   font-size: 48px;
 }
 
-
-.product-title > h6, .product-title > h4 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.product-title > div {
+  width: 55%;
+  margin: 10px auto;
 }
-.product-title > h6 {
+.product-title > div > h6, .product-title > h4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.product-title > div > h6 {
   text-align: left;
 }
 
@@ -311,6 +314,7 @@ h5 {
 
 .top-copy {
   line-height: 2;
+  text-align: center;
 }
 
 .contents {

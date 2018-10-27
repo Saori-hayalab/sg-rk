@@ -1,7 +1,23 @@
-.sale-warning {
+#hokkaido {
   border: solid;
   padding: 30px;
-  border-color: red;
+  color: white;
+  background-color: #444444;
+  margin: 40px;
+  font-size: 12px;
+}
+
+img.star {
+  width: 70px;
+}
+
+.product-title > h4 {
+  text-align: center;
+}
+
+.product-title, .feature, .top-copy {
+  width: 70%;
+  margin: 0 auto;
 }
 
 body {
@@ -83,7 +99,7 @@ img {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 66px;
   font-weight: 600;
 }
 h2 {
@@ -115,8 +131,9 @@ ul {
 
 .item-feature {
   padding-bottom: 14px;
-  font-size: 12px;
+  font-size: 48px;
 }
+
 
 .product-title > h6, .product-title > h4 {
   margin-top: 20px;
@@ -236,8 +253,10 @@ footer > img {
 .row-photo-gallery {
   overflow: auto;
   white-space: nowrap;
-  height: 90px;
+  height: 70px;
   overflow-x: scroll;
+  width: 700px;
+  margin: 10px auto;
 }
 
 .feature-img, .fa-tint {
@@ -248,6 +267,7 @@ footer > img {
 section {
   border-bottom: solid;
   border-color: #ecf1f8;
+  margin-bottom: 120px;
 }
 .global-fotter-directory-column {
   border: none; 
@@ -294,7 +314,9 @@ h5 {
 }
 
 .contents {
-  padding: 18px 0px
+  padding: 18px 0px;
+  width: 900px;
+  margin: 0 auto;
 }
 
 
@@ -487,7 +509,7 @@ h5 {
 
 @media screen and (min-width:960px) {
 .container {
-  max-width: 700px;
+  max-width: 1400px;
 }
 .row.feature, .footnotes, .top-copy, .after-feature {
   padding: 35px;

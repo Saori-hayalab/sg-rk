@@ -32,9 +32,6 @@
           <img class="img-gallery" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077345947.jpg" alt="sonnenglas-in-the-sun" onclick="displayGallery(this);">
         </div>
         <div class="column">
-          <img class="img-gallery" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077345957.jpg" alt="four-sonnenglas" onclick="displayGallery(this);">
-        </div>
-          <div class="column">
             <img class="img-gallery" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077345955.jpg" alt="sonnenglas-coffee-time" onclick="displayGallery(this);">
         </div>
         <div class="column">
@@ -62,51 +59,113 @@
     <div class="section-header">
       <h4>活用シーン</h4>
     </div>
-    <div class="utlize container contents" id="utilize-scene">
-      <div class="mySlides fade">
-        <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346076.jpg" style="width:100%">
-        <div class="utilize-scene-caption"><h2>小さなお子さまやペットのいる家庭の安全でコードレスな照明</h2></div>
+
+<div class="row utilize">
+  <div class="column utilize">
+    <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346076.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column utilize">
+    <img src="https://www.rakuten.ne.jp/gold/sonnenglas/assets/images/shells_480sq.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column utilize">
+    <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346075.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column utilize">
+    <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346072.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column utilize">
+    <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346074.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+  <div class="column utilize">
+    <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346220.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+  <div class="column utilize">
+    <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346112.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+  <div class="column utilize">
+    <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346073.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="utilizeModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="utilizeSlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346076.jpg" style="width:100%">
+    </div>
+    <div class="utilizeSlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="https://www.rakuten.ne.jp/gold/sonnenglas/assets/images/shells_480sq.jpeg" style="width:100%">
+    </div>
+    <div class="utilizeSlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346075.jpg" style="width:100%">
+    </div>
+    <div class="utilizeSlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346072.jpg" style="width:100%">
+    </div>
+    <div class="utilizeSlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346074.jpg" style="width:100%">
+    </div>
+    <div class="utilizeSlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346220.jpg" style="width:100%">
+    </div>
+    <div class="utilizeSlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346112.jpg" style="width:100%">
+    </div>
+
+    <div class="utilizeSlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346073.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="utilize-prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="utilize-next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div>
+      <div class="column utilize">
+        <img class="utillizeThumbnail" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346076.jpg" onclick="currentSlide(1)" alt="安全でコードレスな照明">
       </div>
-      <div class="mySlides fade">
-        <img src="https://www.rakuten.ne.jp/gold/sonnenglas/assets/images/shells_480sq.jpeg" style="width:100%">
-        <div class="utilize-scene-caption"><h2>中身を季節や気分に合わせて変えるインテリア</h2></div>
+      <div class="column utilize">
+        <img class="utillizeThumbnail" src="https://www.rakuten.ne.jp/gold/sonnenglas/assets/images/shells_480sq.jpeg" onclick="currentSlide(2)" alt="シンプルでおしゃれなインテリア">
       </div>
-      <div class="mySlides fade">
-        <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346075.jpg" style="width:100%">
-        <div class="utilize-scene-caption"><h2>寝る前の読書タイムのベッドライト</h2></div>
+      <div class="column utilize">
+        <img class="utillizeThumbnail" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346075.jpg" onclick="currentSlide(3)" alt="寝る前の読書タイムのベッドライト">
       </div>
-      <div class="mySlides fade">
-        <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346074.jpg" style="width:100%">
-        <div class="utilize-scene-caption"><h2>アウトドアのランタン</h2></div>
+      <div class="column utilize">
+        <img class="utillizeThumbnail" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346072.jpg" onclick="currentSlide(4)" alt="日常使いできる防災グッズ">
       </div>
-      <div class="mySlides fade">
-        <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346220.jpg" style="width:100%">
-        <div class="utilize-scene-caption"><h2>好きなものを詰めて、たいせつな人へのギフト</h2></div>
+      <div class="column utilize">
+        <img class="utillizeThumbnail" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346074.jpg" onclick="currentSlide(5)" alt="アウトドアのランタン">
       </div>
-      <div class="mySlides fade">
-        <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346112.jpg" style="width:100%">
-        <div class="utilize-scene-caption"><h2>手軽な間接照明</h2></div>
+      <div class="column utilize">
+        <img class="utillizeThumbnail" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346220.jpg" onclick="currentSlide(6)" alt="たいせつな人へのギフト">
       </div>
-      <div class="mySlides fade">
-        <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346072.jpg" style="width:100%">
-        <div class="utilize-scene-caption"><h2>日常使いできる防災グッズ</h2></div>
+      <div class="column utilize">
+        <img class="utillizeThumbnail" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346112.jpg" onclick="currentSlide(7)" alt="手軽な間接照明">
       </div>
-      <div class="mySlides fade">
-        <img src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346073.jpg" style="width:100%">
-        <div class="utilize-scene-caption"><h2>見せる収納</h2></div>
-      </div>
-      <br>
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-        <span class="dot" onclick="currentSlide(8)"></span>
+
+      <div class="column utilize">
+        <img class="utillizeThumbnail" src="https://image.rakuten.co.jp/sonnenglas/cabinet/sp_gold/imgrc0077346073.jpg" onclick="currentSlide(8)" alt="見せる収納">
       </div>
     </div>
+  </div>
+</div>
+
+
   </section>
   <section id="feature">
     <div class="section-header">
@@ -220,4 +279,5 @@
 </div>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="https://www.rakuten.ne.jp/gold/sonnenglas/js/main.sp.js?v=1.4"></script>
 </html>

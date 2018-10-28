@@ -135,12 +135,20 @@ ul {
   margin-bottom: 50px;
 }
 
-#media > img {
+#media > img, #shops > img {
   height: 400px;
   width: 400px;
 }
 
-#media {
+.contents.packaging {
+  text-align: center;
+}
+
+.contents.packaging > img {
+  width: 550px;
+}
+
+#media, #shops {
   text-align: center;
 }
 

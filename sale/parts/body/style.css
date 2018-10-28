@@ -98,14 +98,6 @@ img {
   padding: 20px 20px 0px 20px;
 }
 
-h1 {
-  font-size: 66px;
-  font-weight: 600;
-}
-h2 {
-  font-size: 20px;
-  font-weight: 600;
-}
 h4 {
   font-size: 17px;
   line-height: 2;
@@ -138,12 +130,44 @@ ul {
   width: 55%;
   margin: 10px auto;
 }
-.product-title > div > h6, .product-title > h4 {
+.product-title > div > h6, .feature-powerful > div > div > div > h3 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+#media > img {
+  height: 400px;
+  width: 400px;
+}
+
+#media {
+  text-align: center;
+}
+
+.switch {
+  position: relative;
+}
+.magnet-text {
+  position: absolute;
+  top: 300px;
+}
+
+.feature-powerful > div > .col-12  {
+  background-color: #F3F0F0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 80px;
+}
+.feature-powerful > div > .col-12 > img {
+  padding: 115px 115px 0px 115px;
+}
+
 .product-title > div > h6 {
   text-align: left;
+}
+
+.feature-powerful > .row {
+  margin-top: 50px;
 }
 
 section> div:last-child {
@@ -302,6 +326,17 @@ section {
   padding: 15px;
 }
 
+.feature-powerful > div {
+  position: relative;
+  text-align: center;
+}
+
+.middle-left {
+  position: absolute;
+  top: 400px;
+  left: 48px;
+  color: white;
+}
 
 h5 {
   font-size: 16px;
@@ -516,22 +551,19 @@ h5 {
   max-width: 1400px;
 }
 .row.feature, .footnotes, .top-copy, .after-feature {
-  padding: 35px;
+  padding: 55px;
 }
 
 }
 
 @media screen and (min-width:1280px) {
-/*  .sun-text {
-    top: 150px;
-  }
-  .night-text {
-    top: 200px;
-  }
-  .only-sp {
-    display: none;
-  }
-  .only-pc {
-    display: unset;
-  }*/
+
+h1 {
+  font-size: 66px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
 }

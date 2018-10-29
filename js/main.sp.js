@@ -5,49 +5,29 @@ document.addEventListener('DOMContentLoaded', function() {
   displayGallery(defaultimg);
 }, false);
 
+document.addEventListener('DOMContentLoaded', function() {
+  let defaultimg = document.querySelector(".util-img-gallery");
+
+
+  console.log("document.querySelector('.util-img-gallery')", document.querySelector(".util-img-gallery"))
+
+  let defaulttext = document.querySelector(".util-img-gallery").getAttribute('alt');
+  displayUtilGallery(defaultimg, defaulttext);
+}, false);
+
+
 function displayGallery (imgs) {
   var expandImg = document.getElementById("expanded-img");
   expandImg.src = imgs.src;
   expandImg.parentElement.style.display = "block";
 }
 
-// Open the Modal
-function openModal() {
-  document.getElementById('utilizeModal').style.display = "block";
-}
+function displayUtilGallery (imgs, texts) {
+	console.log("clicked!", imgs, texts);
+  let expandImg = document.getElementById("expanded-util-img");
+  let expandText = document.getElementById("util-expanded-text");
 
-// Close the Modal
-function closeModal() {
-  document.getElementById('utilizeModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("utilizeSlides");
-  let dots = document.getElementsByClassName("utillizeThumbnail");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  expandImg.src = imgs.src;
+  expandText.innerHTML= texts;
+  expandImg.parentElement.style.display = "block";
 }

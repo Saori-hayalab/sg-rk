@@ -27,6 +27,51 @@ body {
   top: 36px;
 }
 
+.feature-powerful > div {
+  position: relative;
+  text-align: center;
+}
+
+.feature-powerful > div > div > div > h3 {
+  padding: 12px;
+}
+
+.feature-powerful > div > .col-12  {
+  background-color: #F3F0F0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 80px;
+}
+
+.feature-powerful > div > .col-12 > img {
+  padding: 48px 15px 0px 15px;
+}
+
+.product-title > div > h6 {
+  text-align: left;
+}
+
+.feature-powerful > .row {
+  margin-top: 12px;
+}
+
+.feature-powerful-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.middle-left {
+  position: absolute;
+  top: 84px;
+  left: 18px;
+  text-align: left;
+  color: white;
+}
+
+.magnet-text {
+  margin-left: 24px;
+}
+
 ul {
   list-style: none;
   padding: 0;

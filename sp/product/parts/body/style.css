@@ -2,29 +2,59 @@ body {
   height: 1100px;
   margin: 0;
   color: #444444;
+  line-height: 2;
+}
+.warning {
+  border: solid;
+  padding: 10px;
+  font-size: 14px;
 }
 
-.hero-wrapper {
+.hero-wrapper, .hero-two {
   position: relative;
 }
 
-.hero-text {
+.hero-two-text {
+  top: 220px;
+  color: #FFFFFF;
+  font-size: 24px;
+  left: 60px;
+  line-height: 3;
+  font-weight: 550;
+}
+
+.hero-text, .hero-two-text, .utilize-text {
   position: absolute;
   width: 100%;
 }
 .hero-text > h3, .hero-text > h6 {
-  line-height: 1.6;
+  line-height: 2;
   color:#FFFFFF;
+  text-align: center;
+  font-weight: 600;
+}
+
+.utilize-text {
+  top: 380px;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 36px;
   text-align: center;
 }
 
-.hero-text.za,  {
-  top: 12px;
-  padding: 55px;
+.za {
+  padding: 50px;
+  margin-bottom: 120px;
+  font-size: 8px;
+  top: 220px;
+}
+
+.flower {
+  top: 388px;
 }
 
 .st-clean-shot {
-  top: 36px;
+  top: 198px;
 }
 
 .feature-powerful > div {
@@ -141,11 +171,11 @@ img {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 600;
 }
 h2 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 600;
 }
 
@@ -161,7 +191,7 @@ h4 {
 
 h6 {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 2;   
 }
 
 .to-prod-page, .to-prod-page > a {
@@ -193,13 +223,12 @@ ul {
 }
 .product-title {
   text-align: center;
+  padding: 55px;
 }
 
 section> div:last-child {
   margin-bottom: 60px;
 }
-
-
 
 .global-fotter-directory-column {
   padding: 0 16px;
@@ -342,10 +371,9 @@ section {
   font-size: 20px;
 }
 
-.row.feature, .footnotes, .top-copy, .after-feature {
+.row.feature, .footnotes, .after-feature {
   padding: 15px;
 }
-
 
 h5 {
   font-size: 16px;
@@ -357,14 +385,19 @@ h5 {
 }
 
 .top-copy {
-  line-height: 2;
   text-align: center;
+  font-size: 26px;
+  padding-top: 48px;
+  padding-bottom: 75px;
+}
+
+.top-copy > h3 {
+  line-height: 2;
 }
 
 .contents {
   padding: 18px 0px
 }
-
 
 * {box-sizing:border-box}
 
@@ -472,7 +505,7 @@ h5 {
 }
 
 .star {
-  max-width: 100px;
+  max-width: 168px;
 }
 
 .gallery-container {
@@ -492,7 +525,7 @@ h5 {
   margin-bottom: 20px; 
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width: 600px) {
   h1 {
     font-size: 52px;
   }
@@ -560,20 +593,4 @@ h5 {
     padding-bottom: 32px;
     font-size: 20px;
   }
-}
-
-@media screen and (min-width:960px) {
-  .container {
-    max-width: 700px;
-  }
-  .row.feature, .footnotes, .top-copy, .after-feature {
-    padding: 35px;
-  }
-  .only-tb {
-    display: none;
-  }
-}
-
-@media screen and (min-width:1280px) {
-
 }

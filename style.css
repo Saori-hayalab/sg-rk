@@ -14,6 +14,12 @@ ul {
   list-style-type: none;
 }
 
+.warning {
+  border: solid;
+  padding: 10px;
+  font-size: 14px;
+}
+
 li {
   margin-left: 8px;
   margin-right: 8px;
@@ -56,10 +62,6 @@ a:hover, .social-icons > a {
 
 img {
   width: 100%;
-}
-
-#top-image-sp {
-padding-top: 90px;
 }
 
 .hero-image {
@@ -283,36 +285,32 @@ footer > img {
 
 #shops-logos {
   padding-bottom: 5px;
+  max-width: 520px;
 }
 
 div.shops-captions {
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 20px;
   margin-bottom: 150px;
 }
-
 .za-photos {
   margin-top: 40px;
   margin-bottom: 20px; 
 }
-
 .product-info > div > img {
   margin: 30px auto;
 }
-
 .company-vision-column {
   padding-bottom: 30px;
 }
 .company-vision-bg {
   margin-bottom: 50px;
 }
-
 .only-pc {
   display: none;
 }
-
 .media {
-  max-width: 500px;
+  max-width: 380px;
   margin: 0 auto;
 }
 
@@ -321,16 +319,13 @@ div.shops-captions {
     display: none;
   }
 }
-
 .top-logo {
   width: 35px;
   height: 35px;
 }
-
 img {
   vertical-align: baseline;
 }
-
 
 @media screen and (min-width:600px) {
   h1 {
@@ -385,7 +380,7 @@ img {
   }
   .night-text {
     top: 90px;
-    left: 25%;
+    left: 15%;
   }
   .sun-text, .night-text {
     font-size: 28px;
@@ -463,7 +458,7 @@ img {
     top: 150px;
   }
   .night-text {
-    top: 200px;
+    top: 150px;
   }
   .only-sp {
     display: none;

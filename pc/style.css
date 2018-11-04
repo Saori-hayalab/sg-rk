@@ -1,10 +1,7 @@
-#hokkaido {
+.warning {
   border: solid;
-  padding: 30px;
-  color: white;
-  background-color: #444444;
-  margin: 40px;
-  font-size: 12px;
+  padding: 10px;
+  font-size: 14px;
 }
 
 img.star {
@@ -119,6 +116,11 @@ h4 {
 
 ul {
   margin: 15px auto;
+}
+
+.structure-text {
+  margin: 36px;
+  line-height: 1.8;
 }
 
 .item-feature {

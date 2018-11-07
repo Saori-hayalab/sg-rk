@@ -20,6 +20,8 @@ img.star {
 body {
   height: 1100px;
   margin: 0;
+  font-family: osaka;
+  letter-spacing: 2px;
 }
 
 ul {
@@ -60,20 +62,43 @@ a:hover, .social-icons > a {
   color: #7095CD
 }
 
-
 img {
   width: 100%;
 }
 
-.hero-iamge {
+.hero-image {
   position: relative;
+}
+
+.hero-text > h2, .hero-text > h3 {
+  line-height: 2;
 }
 
 .hero-text {
   position: absolute;
-  top: 140px;
-  left: 24px;
+  top: 10%;
+  left: 124px;
   color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.hero-text.second {
+  left: 40%;
+  right: 5%;
+  padding: 20px;
+}
+
+.hero-text.third {
+  right: 50%;
+  left: 5%;
+  padding: 20px;
+}
+
+.forth {
+  top: 40%;
+  width: 60%;
+  line-height: 2;
 }
 
 #top-logo {
@@ -93,6 +118,18 @@ img {
 .page-title, .product-intro-title {
   text-align: center;
   padding: 20px 20px 0px 20px;
+}
+
+h2, h3, h4 {
+  letter-spacing: 4.5px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 h4 {
@@ -126,6 +163,10 @@ ul {
 .item-feature {
   padding-bottom: 14px;
   font-size: 48px;
+}
+
+.product-title {
+  margin-bottom: 80px;
 }
 
 .product-title > div {

@@ -15,17 +15,21 @@ body {
 }
 
 .hero-two-text {
-  top: 220px;
+  top: 32px;
   color: #FFFFFF;
-  font-size: 24px;
-  left: 60px;
+  font-size: 8px;
   line-height: 3;
   font-weight: 550;
+  width: 50%;
+}
+
+.in-the-sun {
+  right: 20px;
 }
 
 .hero-text, .hero-two-text, .utilize-text {
   position: absolute;
-  width: 100%;
+  padding: 25px !important;
 }
 .hero-text > h3, .hero-text > h6 {
   line-height: 2;
@@ -35,10 +39,10 @@ body {
 }
 
 .utilize-text {
-  top: 380px;
+  top: 120px;
   color: #FFFFFF;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 21px;
   text-align: center;
 }
 
@@ -46,15 +50,16 @@ body {
   padding: 50px;
   margin-bottom: 120px;
   font-size: 8px;
-  top: 220px;
+  top: 20px;
 }
 
 .flower {
-  top: 388px;
+  top: 18px;
 }
 
 .st-clean-shot {
-  top: 198px;
+  top: 68px;
+  width: 100%
 }
 
 .feature-powerful > div {
@@ -169,28 +174,31 @@ img {
   text-align: center;
   padding: 20px 20px 0px 20px;
 }
+.col-8.col-md-8 > h4 {
+  font-size: 22px;
+}
 
 h1 {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 600;
 }
 h2 {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 500;
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 12px;
   line-height: 2;
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 8px;
   line-height: 2;   
 }
 
@@ -250,9 +258,8 @@ section> div:last-child {
   line-height: 3;
 }
 
-.company-vision-column, .container {
+.company-vision-column {
   padding: 30px;
-  background-color: #FFFFFF;
 }
 .company-vision {
   padding: 20px 10px 40px 10px;
@@ -505,7 +512,7 @@ h5 {
 }
 
 .star {
-  max-width: 168px;
+  max-width: 118px;
 }
 
 .gallery-container {
@@ -542,10 +549,10 @@ h5 {
     font-size: 18px;
   }
   .st-clean-shot {
-  top: 98px;
+    top: 68px;
   }
   .hero-text {
-    padding: 28px;
+    padding: 38px;
   }
   .row-photo-gallery {
     height: 150px;

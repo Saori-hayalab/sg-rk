@@ -1,8 +1,9 @@
 body {
-  height: 1100px;
   margin: 0;
   color: #444444;
   line-height: 2;
+  font-family: "Osaka", sans-serif;
+  letter-spacing: 2px;
 }
 .warning {
   border: solid;
@@ -10,26 +11,38 @@ body {
   font-size: 14px;
 }
 
+.christmas {
+  color: red;
+}
+
 .hero-wrapper, .hero-two {
   position: relative;
 }
 
+.hero-two-text > h3, .hero-two-text {
+  line-height: 2;  
+}
+
+.hero-two-text > span {
+  font-size: 9px;
+}
+
 .hero-two-text {
-  top: 32px;
+  top: 12px;
   color: #FFFFFF;
   font-size: 8px;
-  line-height: 3;
   font-weight: 550;
-  width: 50%;
+  width: 63%;
 }
 
 .in-the-sun {
-  right: 20px;
+  right: 5%;
 }
+
 
 .hero-text, .hero-two-text, .utilize-text {
   position: absolute;
-  padding: 25px !important;
+  padding: 15px !important;
 }
 .hero-text > h3, .hero-text > h6 {
   line-height: 2;
@@ -42,8 +55,9 @@ body {
   top: 120px;
   color: #FFFFFF;
   font-weight: 800;
-  font-size: 21px;
+  font-size: 1.1rem;
   text-align: center;
+  width: 100%;
 }
 
 .za {
@@ -97,14 +111,15 @@ body {
 
 .middle-left {
   position: absolute;
-  top: 84px;
-  left: 18px;
+  top: 40%;
+  left: 10%;
   text-align: left;
   color: white;
 }
 
 .magnet-text {
   margin-left: 24px;
+  margin-top: 20%;
 }
 
 ul {
@@ -183,22 +198,22 @@ h1 {
   font-weight: 600;
 }
 h2 {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 
 h4 {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 2;
 }
 
 h6 {
-  font-size: 8px;
+  font-size: 12px;
   line-height: 2;   
 }
 
@@ -263,10 +278,12 @@ section> div:last-child {
 }
 .company-vision {
   padding: 20px 10px 40px 10px;
+  text-align: center;
 }
 
 .company-vision-bg > h6 {
   line-height: 2;
+  padding: 20px;
 }
 
 .company-vision-column {
@@ -389,6 +406,7 @@ h5 {
 .footnotes {
   text-align: left;
   color: #a6a6a6;
+  font-size: 6px;
 }
 
 .top-copy {
@@ -446,7 +464,7 @@ h5 {
   background-color: rgba(0,0,0,0.8);
 }
 
-.utilize-scene-caption {
+.utilize-scene-caption > h3 {
   color: black;
   font-size: 15px;
   padding: 8px 12px;
@@ -512,7 +530,7 @@ h5 {
 }
 
 .star {
-  max-width: 118px;
+  max-width: 78px;
 }
 
 .gallery-container {
@@ -532,27 +550,55 @@ h5 {
   margin-bottom: 20px; 
 }
 
+.only-tb {
+  display: none;
+}
+
+#media > img, #shops > img {
+  width: 70%;
+}
+#media, #shops {
+  text-align: center;
+}
+
 @media screen and (min-width: 600px) {
   h1 {
-    font-size: 52px;
+    font-size: 38px;
   }
-  h2, .shops-and-media > div > h4, .about > div  > h4 {
-    font-size: 42px;
-  }
-  h3 {
-    font-size: 36px;
-  }
-  h4 {
+  h2 {
     font-size: 28px;
   }
-  h6 {
+  h3 {
     font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  .hero-two-text {
+    top: 30%;
+  }
+  .hero-two-text > span {
+  font-size: 15px;
+  }
+  #media > img, #shops > img {
+    width: 50%;
   }
   .st-clean-shot {
     top: 68px;
   }
+  .utilize-text {
+    top: 40%;
+    font-size: 22px
+  }
+  .flower, .za {
+    top: 40%;
+  }
   .hero-text {
     padding: 38px;
+    width: 100%;
   }
   .row-photo-gallery {
     height: 150px;
@@ -566,6 +612,9 @@ h5 {
   }
   .only-sp {
     display: none;
+  }
+  .only-tb {
+  display: unset;
   }
   .company-vision-bg, .nav-link {
     font-size: 18px;

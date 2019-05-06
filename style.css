@@ -7,6 +7,10 @@ body {
   height: 1100px;
 }
 
+.christmas {
+  color: red;
+}
+
 ul {
   list-style: none;
   padding: 0;

@@ -4,6 +4,10 @@
   font-size: 14px;
 }
 
+.christmas {
+  color: red;
+}
+
 img.star {
   width: 70px;
 }
@@ -20,7 +24,7 @@ img.star {
 body {
   height: 1100px;
   margin: 0;
-  font-family: osaka;
+  font-family: "Osaka", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -79,11 +83,16 @@ img {
   top: 10%;
   left: 124px;
   color: white;
-  font-size: 32px;
   font-weight: 600;
 }
 
-.hero-text.second {
+.first {
+  top: 56%;
+  left: 50%;
+  padding-right: 198px;
+}
+
+.second {
   left: 40%;
   right: 5%;
   padding: 20px;
@@ -97,7 +106,7 @@ img {
 
 .forth {
   top: 40%;
-  width: 60%;
+  width: 50%;
   line-height: 2;
 }
 
@@ -120,21 +129,9 @@ img {
   padding: 20px 20px 0px 20px;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4, h6, span {
   letter-spacing: 4.5px;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-size: 17px;
-  line-height: 2;
+  line-height: 2em;
 }
 
 .to-prod-page, .to-prod-page > a {
@@ -170,12 +167,8 @@ ul {
 }
 
 .product-title > div {
-  width: 55%;
+  width: 75%;
   margin: 10px auto;
-}
-.product-title > div > h6, .feature-powerful > div > div > div > h3 {
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 #media > img, #shops > img {
@@ -187,7 +180,7 @@ ul {
 }
 
 .contents.packaging > img {
-  width: 550px;
+  width: 100%;
 }
 
 #media, #shops {
@@ -199,7 +192,7 @@ ul {
 }
 .magnet-text {
   position: absolute;
-  top: 300px;
+  top: 30%;
 }
 
 .feature-powerful > div > .col-12  {
@@ -222,11 +215,6 @@ ul {
 
 section> div:last-child {
   margin-bottom: 60px;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 1.5;
 }
 
 .global-fotter-directory-column {
@@ -394,6 +382,7 @@ h5 {
 .footnotes {
   text-align: left;
   color: #a6a6a6;
+  font-size: 10px;
 }
 
 .top-copy {
@@ -525,98 +514,156 @@ h5 {
   margin-bottom: 20px; 
 }
 
-@media screen and (min-width:600px) {
-  h1 {
-    font-size: 36px;
-  }
-  h2, .shops-and-media > div > h4, .about > div  > h4 {
-    font-size: 25px;
-  }
-  h4 {
-    font-size: 23px;
-  }
-  h6 {
-    font-size: 18px;
-  }
-  .contents > ul > li {
-    font-size: 18px;
-  }
-  .section-header > h4::after, .packaging-header > h4, .section-header > h4 {
-    font-size: 30px;
-    line-height: 1;
-  }
-  .only-pc {
-    display: unset;
-  }
-  .only-sp {
-    display: none;
-  }
-  .company-vision-bg, .nav-link {
-    font-size: 18px;
-  }
-  .product-info > div {
-    margin-top: 20px;
-  }
-  .features > div {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  .shops-and-media, .about {
-    padding: 60px 0px 0px 0px;
-    text-align: center;
-  }
-  .shops-captions{
-    margin-bottom: 150px;
-    font-size: 15px;
-    margin-top: 0px;  
-  }
-  .product-page, .after-feature > div > div > a {
-    font-size: 20px;
-  }
-  section.shops-and-media > div > h2, .about > div > h2 {
-    margin-bottom: 70px;
-  }
-
-  .about {
-    margin-bottom: 0px;
-  }
-
-  .link-to.after-feature {
-    padding-top: 50px;  
-  }
-  .container.features > div > div {
-    padding-bottom: 32px;
-    font-size: 20px;
-  }
+.utilize-scene-caption > h6 {
+  color: black;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-@media screen and (min-width:960px) {
+.contents > ul > li {
+  font-size: 18px;
+}
+.section-header > h4::after, .packaging-header > h4, .section-header > h4 {
+  font-size: 30px;
+  line-height: 1;
+}
+.only-pc {
+  display: unset;
+}
+.only-sp {
+  display: none;
+}
+.company-vision-bg, .nav-link {
+  font-size: 18px;
+}
+.product-info > div {
+  margin-top: 20px;
+}
+.features > div {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.shops-and-media, .about {
+  padding: 60px 0px 0px 0px;
+  text-align: center;
+}
+.shops-captions{
+  margin-bottom: 150px;
+  font-size: 15px;
+  margin-top: 0px;  
+}
+.product-page, .after-feature > div > div > a {
+  font-size: 20px;
+}
+section.shops-and-media > div > h2, .about > div > h2 {
+  margin-bottom: 70px;
+}
+.about {
+  margin-bottom: 0px;
+}
+
+.link-to.after-feature {
+  padding-top: 50px;  
+}
+.container.features > div > div {
+  padding-bottom: 32px;
+  font-size: 20px;
+}
+
 .container {
   max-width: 1400px;
 }
 .row.feature, .footnotes, .top-copy, .after-feature {
   padding: 55px;
 }
+.product-title > div > h6, .feature-powerful > div > div > div > h3 {
+margin-top: 32px;
+margin-bottom: 32px;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px; 
+}
+h4 {
+  font-size: 20px;
+}
+h5, h6 {
+  font-size: 18px;
+}
 
+@media screen and (min-width:960px) {
+.row.feature, .footnotes, .top-copy, .after-feature {
+  padding: 35px;
+}
+h1 {
+  font-size: 23px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px; 
+}
+h4 {
+  font-size: 16px;
+}
+h5, h6 {
+  font-size: 14px;
+}
+.first {
+  padding-right: 148px;
+}
+.product-title > div {
+  width: 55%;
+}
+}
+
+@media screen and (min-width:1024px) {
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px
+  }
+  h4 {
+    font-size: 14px;
+  }
+  h5, h6 {
+    font-size: 14px;
+  }
+  .product-title > div > h6, .feature-powerful > div > div > div > h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 
 @media screen and (min-width:1280px) {
   h1 {
-    font-size: 66px;
-    font-weight: 600;
+    font-size: 32px;
   }
   h2 {
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 28px;
   }
 
-  .utilize-scene-caption > h2 {
-    color: black;
-    font-size: 28px;
-    padding: 8px 12px;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+  h3 {
+    font-size: 24px
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 16px;
   }
 }

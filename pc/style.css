@@ -72,7 +72,15 @@ img {
 
 .hero-image {
   position: relative;
+  size: cover;
 }
+
+
+/*写真変更overlay*/
+.hero-text > h1 {
+  line-height: 1.8;
+}
+
 
 .hero-text > h2, .hero-text > h3 {
   line-height: 2;
@@ -87,27 +95,51 @@ img {
 }
 
 .first {
-  top: 56%;
-  left: 50%;
-  padding-right: 198px;
+  top: 30%;
+  left: 60%;
+  padding-right: 120px;
+  text-align: center
+}
+
+.first > img {
+  width: 80%;
+  padding-bottom: 50px;
+}
+
+.first02{
+  top: 30%;
+  left: 40%;
+  padding-right: 120px;
 }
 
 .second {
+  top: 30%;
   left: 40%;
   right: 5%;
+  padding-right: 120px;
+}
+.third {
+  top: 30%;
   padding: 20px;
 }
 
 .hero-text.third {
-  right: 50%;
-  left: 5%;
+  right: 45%;
+  left: 10%;
   padding: 20px;
 }
 
 .forth {
-  top: 40%;
+  top: 30%;
   width: 50%;
+  right: 60%;
   line-height: 2;
+}
+
+.hero-text.right {
+  top: 30%;
+  left: 50%;
+  padding-right: 120px;
 }
 
 #top-logo {
@@ -167,7 +199,7 @@ ul {
 }
 
 .product-title > div {
-  width: 75%;
+  width: 70%;
   margin: 10px auto;
 }
 
@@ -205,8 +237,28 @@ ul {
   padding: 115px 115px 0px 115px;
 }
 
-.product-title > div > h6 {
+
+.product-title table {
+  margin-top: 60px; 
+  width: 100%;
+}
+
+.product-title td th {
+  padding: 10px 15px;
+  margin: 10px 15px;
+}
+
+.feature-icons {
+  width:30px;
+}
+
+.support {
+  margin-bottom: 70px;
+}
+.support > h6 {
   text-align: left;
+  margin-left: 30px;
+  font-size: 14px;
 }
 
 .feature-powerful > .row {
@@ -579,9 +631,14 @@ section.shops-and-media > div > h2, .about > div > h2 {
 .row.feature, .footnotes, .top-copy, .after-feature {
   padding: 55px;
 }
-.product-title > div > h6, .feature-powerful > div > div > div > h3 {
-margin-top: 32px;
-margin-bottom: 32px;
+.product-title > div > h6, {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.feature-powerful > div > div > div > h3 {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 h1 {
   font-size: 32px;
@@ -622,7 +679,11 @@ h5, h6 {
   padding-right: 148px;
 }
 .product-title > div {
-  width: 55%;
+  width: 80%;
+}
+
+.hero-text.right {
+  top: 20%;
 }
 }
 
